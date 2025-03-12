@@ -10,7 +10,8 @@ require('lazy').setup({
     require('plugins.telescope'),
     require('plugins.treesitter'),
     require('plugins.whichkey'),
-    require('plugins.tree')
+    require('plugins.tree'),
+    require('plugins.copilot'),
   }, {
     ui = {
       icons = vim.g.have_nerd_font and {} or {
