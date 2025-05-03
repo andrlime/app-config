@@ -1,0 +1,7 @@
+source "${0:A:h}/cpp.config"
+source "${0:A:h}/dev.config"
+source "${0:A:h}/docker.config"
+source "${0:A:h}/git.config"
+source "${0:A:h}/open.config"
+source "${0:A:h}/python.config"
+source "${0:A:h}/shortcuts.config"
