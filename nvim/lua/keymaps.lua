@@ -29,3 +29,7 @@ vim.keymap.set('i', '<3-LeftMouse>', '<Nop>', { noremap = true, silent = true })
 vim.keymap.set('n', '<4-LeftMouse>', '<Nop>', { noremap = true, silent = true })
 vim.keymap.set('v', '<4-LeftMouse>', '<Nop>', { noremap = true, silent = true })
 vim.keymap.set('i', '<4-LeftMouse>', '<Nop>', { noremap = true, silent = true })
+
+-- Disable help button entirely
+vim.keymap.set('', '<F1>', '<Nop>')
+vim.keymap.set('i', '<F1>', '<Nop>')
